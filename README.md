@@ -135,3 +135,20 @@ The test page can be opened at a given port, displayed in the console.
 - For Example: at `http://localhost:5173/?sap-ui-theme=mytheme` - The page opens with the custom theme, called `mytheme` by default (In case you have built it with `npm run build:theme`)
 
 - For Example: at `http://localhost:5173/?sap-ui-theme=pinky` - The page opens with the custom theme, called `pinky` (In case you have built it with `npm run build:theme pinky`)
+
+# Screens
+
+### Morning Horizon
+
+<img width="1177" alt="Screenshot 2024-03-09 at 15 23 29" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/2c31be5f-d0d6-49ac-bb1c-c47da07ee330">
+
+<img width="1248" alt="Screenshot 2024-03-09 at 15 23 58" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/32a41f91-5564-41cc-94fa-e2a8f9fd9c6e">
+
+
+### The Custom Theme
+
+<img width="1174" alt="Screenshot 2024-03-09 at 15 19 32" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/9e8e025d-b320-4a04-ac92-3e0a22c5cf45">
+
+<img width="1217" alt="Screenshot 2024-03-09 at 15 19 41" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/e727ffa2-1e34-4c3f-b3c6-9eedafcb02fd">
+
+
