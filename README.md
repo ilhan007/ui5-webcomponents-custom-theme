@@ -125,6 +125,7 @@ Open the `src/mytheme.less` file and change the values of `@sapPrimary1` and `@s
 The build outputs the CSS Variables in `src/customtheme/mytheme.css`.
 
 **Note:** If the second param (the theme we extend) is used, make sure to match the imported source less from `@sap-theming/theming-base-content`
+inside the `mytheme.less` file.
 
 ### 4. Run the server
 
