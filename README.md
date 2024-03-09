@@ -13,16 +13,17 @@ Applying a custom theme means setting custom values for these CSS Variables. Now
 The CSS variables (used by the UI5 Web Components internally) are maintained in the so called [theming-base-content](https://github.com/SAP/theming-base-content) project.
 The great thing is that they are stable and backward compatible - new variables may be added, but old are maintained, so you can safely use them.
 
-For example, you can explore the CSS Variables for Morning Horizon are: https://github.com/SAP/theming-base-content/blob/master/content/Base/baseLib/sap_horizon/css_variables.css.
+For example, you can explore the [Morning Horizon CSS Variables](https://github.com/SAP/theming-base-content/blob/master/content/Base/baseLib/sap_horizon/css_variables.css).
 These are exactly the CSS variables being applied, when the theme is set to Morning Horizon("sap_horizon").
+And, they are available on NPM here: [@sap-theming/theming-base-content](https://www.npmjs.com/package/@sap-theming/theming-base-content).
 
-Ok, so far we have the ingredients - the CSS variables. Now, we need tolearn what's the easiest way to change them.
+So far, so good, we have the ingredients - the CSS variables. Now, we need to learn what's the easiest way to change them.
 
-At this point, you may ask, can I just copy the [css_variables.css](https://github.com/SAP/theming-base-content/blob/master/content/Base/baseLib/sap_horizon/css_variables.css) of Morning Horizon, 
+At this point, you may ask, can I just copy the [Morning Horizon CSS Variables](https://github.com/SAP/theming-base-content/blob/master/content/Base/baseLib/sap_horizon/css_variables.css), 
 change some of the values and finally include the file in my app? And, the answer is yes - you can do that and it will work.
-Whatever CSS variables you change, the changes will take effect. However, this is not the most effective way. 
+Whatever CSS variables you change, the changes will take effect. However, this is not the most effective way.
 
-Instead, it's best to take the source less file and change some of the important less variable (like the variables for the brand and primary colors)
+Instead, it's best to take the source less file and change only some of the important less variable (like the variables for the brand and primary colors)
 and all the rest will be calculated accordingly.
 
 # Creating Custom Theme
@@ -30,7 +31,7 @@ It's time to put the theory into practice. To build a custom theme, we have done
 
 ### 1. Using the "@sap-theming/theming-base-content"
 
-We have installed `@sap-theming/theming-base-content` from NPM to get the source less files of the themes we are going to extend
+We have installed `@sap-theming/theming-base-content` from NPM to get the source less files of the themes we are going to extend.
 We have created a single less file `src/mytheme.less` and imported the source less file of `sap_horizon`.
 It will serve as our base theme that we are going to customize.
 
@@ -55,14 +56,14 @@ However, we mostly recommend changing the main ones `sapPrimary1` - `sapPrimary7
 ### 3. Compile Less to CSS
 We have installed `less` from NPM to compile less to css.
 This is done in the `customtheme.js` file. 
-The script runs the less compiler over the less file to produce a css out of it 
+The script runs the less compiler over the less file (`src/mytheme.less`) to produce a css out of it (`src/customtheme/mytheme.css`)
 and adds a small piece of metadata that the UI5 Web Components framework will later use.
 
 For convinience, the project provides a task running the script:
 
 `npm run build:theme`
 
-The task outputs the CSS variables are generated into the `src/customtheme/mytheme.css`,
+The task outputs the CSS variables into the `src/customtheme/mytheme.css` file.
 And, that's it!.
 
 # Using Custom Theme
@@ -82,7 +83,7 @@ setTheme("mytheme");
 
 # Run the project
 Everything said so far is inplemented.
-For the test purposes, the project installs `@ui5/webcomponents`, imports many components in `src/main.ts` that are used in the `index.html` so you can see the theming changes.
+For the test purposes, the project installs `@ui5/webcomponents`, imports many components in `src/main.ts`, used in the `index.html` to observe the custom theming applied.
 And, [vite](https://vitejs.dev/) is also used for the development server and es6 module bundling tool (as UI5 Web Components are shipped as es6 modules).
 
 
