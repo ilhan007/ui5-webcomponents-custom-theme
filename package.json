@@ -1,0 +1,22 @@
+{
+  "name": "ui5-webcomponents-custom-theme",
+  "version": "0.7.0",
+  "type": "module",
+  "scripts": {
+    "build:theme": "node customtheme.cjs",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@sap-theming/theming-base-content": "^11.12.2",
+    "less": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "@ui5/webcomponents": "^1.23.1"
+  }
+}
