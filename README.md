@@ -91,7 +91,8 @@ Everything we explained so far is already set up and you can test it:
 `npm i`
 
 2. Customize variables
-Open the `src/mytheme.less` file and change the color for `@sap`
+
+Open the `src/mytheme.less` file and change the values of `@sapPrimary1` and `@sapPrimary2` variables.
 
 3. Run build to generate the custom theme.
 
