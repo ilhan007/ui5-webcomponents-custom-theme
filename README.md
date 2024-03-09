@@ -15,7 +15,7 @@ The great thing is that they are stable and backward compatible - new variables 
 
 For example, you can explore the [Morning Horizon CSS Variables](https://github.com/SAP/theming-base-content/blob/master/content/Base/baseLib/sap_horizon/css_variables.css).
 These are exactly the CSS variables being applied, when the theme is set to Morning Horizon("sap_horizon").
-And, they are available on NPM here: [@sap-theming/theming-base-content](https://www.npmjs.com/package/@sap-theming/theming-base-content).
+And, they are available on NPM: [@sap-theming/theming-base-content](https://www.npmjs.com/package/@sap-theming/theming-base-content).
 
 So far, so good, we have the ingredients - the CSS variables. Now, we need to learn what's the easiest way to change them.
 
