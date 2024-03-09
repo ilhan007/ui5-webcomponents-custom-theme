@@ -152,6 +152,8 @@ The test page can be opened at a given port, displayed in the console.
 ### The Custom Theme
 
 <br>
-<img width="1258" alt="Screenshot 2024-03-09 at 15 38 00" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/a9201d88-5d46-4a84-bf37-6c26f51ad724">
-<img width="1266" alt="Screenshot 2024-03-09 at 15 38 17" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/a577509c-a050-4612-8684-9932512709e9">
+<img width="1268" alt="Screenshot 2024-03-09 at 15 39 47" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/57cd114d-0f1e-49a9-b2f3-1305dea52604">
+<img width="1204" alt="Screenshot 2024-03-09 at 15 40 30" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/50286ec6-3c8b-4207-8f83-bf774bb4b748">
+
+
 
