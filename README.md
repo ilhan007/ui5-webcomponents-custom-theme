@@ -8,7 +8,7 @@ The recommended way is to use the UI Theme Designer (user friendly tool for crea
 # Theming of UI5 Web Components
 
 The theming of UI5 Web Components is based entirely on CSS variables. Switching between themes means changing the values of these CSS Variables.
-Applying a custom theme means setting custom values for these CSS Variables. Now, we only need to get them and overwrite their values.
+Applying a custom theme means setting custom values for these CSS Variables. So, it turns out we only need to get some variables and overwrite their values.
 
 The CSS variables (used by the UI5 Web Components internally) are maintained in the so called [theming-base-content](https://github.com/SAP/theming-base-content) project.
 The great thing is that they are stable and backward compatible - new variables may be added, but old are maintained, so you can safely use them.
@@ -79,6 +79,9 @@ import { getTheme, setTheme } from "@ui5/webcomponents-base/dist/config/Theme.js
 
 setTheme("mytheme");
 ```
+
+If you wonder, how we know to use `mytheme` or how to change it - don't worry!
+We will get to the name of the theme and respectively of the parameter in the next section.
 
 
 # Run the project
