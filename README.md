@@ -71,12 +71,14 @@ And, that's it!.
 Once we have the custom theme (`src/customtheme/mytheme.css`), the final step is to use it.
 
 ### 1. Adding the Custom CSS
-In this project we rely on the vite to include the css by jjust importing the file
+In this project we rely on the vite to include the css by just importing the file as it knows how to deal with CSS imports.
+Vite will include the styles as `style` tag for us.
+
 ```ts
 import "./customtheme/mytheme.css";
 ```
 
-However, you can reference the file with `link` tag as usual, or even copy the content of the file and put it in `style` tag.
+However, you can reference the file with `link` tag as usual, or by adding manually the `src/customtheme/mytheme.css` content in `style` tag.
 
 ### 2. Custom Theme Confuguration
 To do so, you can use one of the standard following APIs for setting a theme (for both custom and standard themes):
