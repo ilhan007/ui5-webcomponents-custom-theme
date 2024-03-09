@@ -144,15 +144,14 @@ The test page can be opened at a given port, displayed in the console.
 
 ### Morning Horizon
 
-<img width="1177" alt="Screenshot 2024-03-09 at 15 23 29" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/2c31be5f-d0d6-49ac-bb1c-c47da07ee330">
-
-<img width="1248" alt="Screenshot 2024-03-09 at 15 23 58" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/32a41f91-5564-41cc-94fa-e2a8f9fd9c6e">
-
+<br>
+<img width="1313" alt="Screenshot 2024-03-09 at 15 36 46" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/2d27fdd2-dbaf-4133-b8a3-341cc9f7e61f">
+<img width="1312" alt="Screenshot 2024-03-09 at 15 36 55" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/9893b83b-e444-4168-97d7-5c608ce8e78d">
+<br>
 
 ### The Custom Theme
 
-<img width="1174" alt="Screenshot 2024-03-09 at 15 19 32" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/9e8e025d-b320-4a04-ac92-3e0a22c5cf45">
-
-<img width="1217" alt="Screenshot 2024-03-09 at 15 19 41" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/e727ffa2-1e34-4c3f-b3c6-9eedafcb02fd">
-
+<br>
+<img width="1258" alt="Screenshot 2024-03-09 at 15 38 00" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/a9201d88-5d46-4a84-bf37-6c26f51ad724">
+<img width="1266" alt="Screenshot 2024-03-09 at 15 38 17" src="https://github.com/ilhan007/ui5-webcomponents-custom-theme/assets/15702139/a577509c-a050-4612-8684-9932512709e9">
 
