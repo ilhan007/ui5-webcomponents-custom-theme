@@ -81,6 +81,7 @@ import "./customtheme/mytheme.css";
 However, you can reference the file with `link` tag as usual, or by adding manually the `src/customtheme/mytheme.css` content in `style` tag.
 
 ### 2. Custom Theme Confuguration
+In the previous step we have loaded the CSS , now we only need to set it to the UI5 Web Components.
 To do so, you can use one of the standard following APIs for setting a theme (for both custom and standard themes):
 
 - With URL parameter: `index.html?sap-ui-theme=mytheme`
