@@ -1,10 +1,8 @@
 # Build Custom Theme for UI5 Web Components
 
-**The project describes how to create a custom theme for  UI5 Web Components.**
-
 There are several ways to create a custom theme for an application, built with [UI5 Web Components](https://github.com/SAP/ui5-webcomponents/).
 
-The recommended way is to use the SAP UI Theme Designer (user friendly tool for creating custom themes), described in the [Custom Theming with UI Theme Designer](https://github.com/SAP/ui5-webcomponents/blob/main/docs/3-customizing/02-theme.md) section.
+The recommended way is to use the SAP UI Theme Designer - user friendly tool for creating custom themes. Read the [Custom Theming with UI Theme Designer](https://github.com/SAP/ui5-webcomponents/blob/main/docs/3-customizing/02-theme.md) article for more information.
 
 However, the SAP UI Theme Designer is not an open-source tool and using it requires SAP BTP account and configuration in the SAP BTP Cockpit. In case you don't have access to the UI Theme Designer, this article is for you.
 
